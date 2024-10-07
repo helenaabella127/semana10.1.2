@@ -36,7 +36,6 @@ function showList(array) {
   });
 }
 
-
 document.addEventListener("DOMContentLoaded", (e) => {
   // Filtrar elementos que sean de tipo String
   const filteredArray = strangeArray.filter(item => typeof item === 'string');
